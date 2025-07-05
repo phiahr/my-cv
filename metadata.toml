@@ -1,0 +1,71 @@
+#:schema https://raw.githubusercontent.com/yunanwg/brilliant-CV/main/metadata.toml.schema.json
+
+# Set the output language
+language = "en"
+
+[layout]
+    # Optional values: skyblue, red, nephritis, concrete, darknight
+    # You can also use a custom color by hex code i.e. "#1E90FF"
+    # awesome_color = "#0073ff"
+    awesome_color = "#555555"
+
+    # Skips are for controlling the spacing between sections and entries
+    before_section_skip = "1pt"
+    before_entry_skip = "1pt"
+    before_entry_description_skip = "1pt"
+
+    # Optional: sets paper size and margins. Possible values: a4 (default), us-letter
+    paper_size = "a4"
+
+    # Optional: sets the width of the right column of a cvEntry. If not set, values known to work well are used
+    #date_width = "3.6cm"
+
+    [layout.fonts]
+        regular_fonts = ["Source Sans Pro", "Source Sans 3"]
+        header_font = "Roboto"
+
+    [layout.header]
+        # Optional values: left, center, right
+        header_align = "left"
+
+        # Decide if you want to display profile photo or not
+        display_profile_photo = true
+        info_font_size = "10pt"
+
+    [layout.entry]
+        # Decide if you want to put your company in bold or your position in bold
+        display_entry_society_first = true
+
+        # Decide if you want to display organisation logo or not
+        display_logo = true
+
+[inject]
+    # Decide if you want to inject AI prompt or not
+    inject_ai_prompt = true
+
+    # Decide if you want to inject keywords or not
+    inject_keywords = true
+    injected_keywords_list = ["C++", "Python", "ROS2", "Linux", "Git", "Docker", "CI/CD"]
+
+[personal]
+    first_name = "Daniel"
+    last_name = "San Jose Pro"
+
+    # The order of this section will affect how the entries are displayed
+    # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
+    [personal.info]
+        github = "danielsanjosepro"
+        phone = "+49 1774012392"
+        email = "sanjose.daniel@gmail.com"
+        linkedin = "daniel-san-jose-pro"
+        [personal.info.custom-1]
+            # image = "" # Example: image("./path/to/image.png")
+            awesomeIcon = "globe" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
+            text = "Website"
+            link = "https://danielsanjosepro.github.io"
+
+[lang.en]
+# header_quote = "I am a master’s student highly interested and talented in robotics. My main domains of interest lie at the intersection of Control Theory and Machine Learning. Additionally, I have experience working on larger robotics projects with *ROS2*. I have a great overview of the technologies and tools needed to develop and research in the field of robotics."
+cv_footer = "Curriculum vitae"
+letter_footer = "Cover letter"
+
