@@ -48,13 +48,13 @@ language = "en"
     injected_keywords_list = ["C++", "Python", "ROS2", "Linux", "Git", "Docker", "CI/CD"]
 
 [personal]
-    first_name = "Daniel"
-    last_name = "San Jose Pro"
+    first_name = "Philipp"
+    last_name = "Ahrendt"
 
     # The order of this section will affect how the entries are displayed
     # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
     [personal.info]
-        github = "danielsanjosepro"
+        github = "phiahr"
         phone = "+49 1774012392"
         email = "sanjose.daniel@gmail.com"
         linkedin = "daniel-san-jose-pro"
@@ -62,7 +62,7 @@ language = "en"
             # image = "" # Example: image("./path/to/image.png")
             awesomeIcon = "globe" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
             text = "Website"
-            link = "https://danielsanjosepro.github.io"
+            link = "https://phiahr.github.io"
 
 [lang.en]
 # header_quote = "I am a master’s student highly interested and talented in robotics. My main domains of interest lie at the intersection of Control Theory and Machine Learning. Additionally, I have experience working on larger robotics projects with *ROS2*. I have a great overview of the technologies and tools needed to develop and research in the field of robotics."
