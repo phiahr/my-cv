@@ -4,19 +4,19 @@
 #let cvSection = cvSection.with(metadata: metadata)
 
 
-#cvSection("Skills", highlighted: false)
+#cvSection("Skills & Interests", highlighted: false)
+
+#cvSkill(
+  type: [Skills],
+  info: [C++ #hBar() Python #hBar() Git #hBar() Machine Learning #hBar() ROS #hBar() Computer Vision #hBar() Linux #hBar() PyTorch #hBar() TensorFlow #hBar() Control],
+)
 
 #cvSkill(
   type: [Languages],
-  info: [German #hBar() English #hBar() Spanish #hBar() French],
+  info: [Fluent in German, English, French],
 )
 
 #cvSkill(
-  type: [Tech Stack],
-  info: [ROS2 #hBar() Python #hBar() C++ #hBar() 3D-Printing/CAD #hBar() Docker #hBar() UNIX/Linux]
+  type: [Interests],
+  info: [Intersection of Robotics and AI #hBar() Tennis #hBar() Effective Altruism #hBar() Learning new skills],
 )
-
-// #cvSkill(
-//   type: [Personal Interests],
-//   info: [Swimming #hBar() Cooking #hBar() Reading],
-// )

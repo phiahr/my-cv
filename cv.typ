@@ -15,7 +15,7 @@
   profilePhoto: image("./src/avatar.png"),
 )
 #importModules((
-  "summary",
+  // "summary",
   "professional",
   "education",
   "skills",

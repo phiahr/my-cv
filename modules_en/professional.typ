@@ -8,44 +8,58 @@
 #cvSection("Professional Experience", highlighted: false)
 
 #cvEntry(
-  title: [Robotics Research Assistant],
-  society: [Learning Systems and Robotics Lab, TUM],
-  logo: image("../src/logos/lsy.png"),
-  date: [Apr 2025 - Now],
-  location: [Munich, Germany],
+  title: [Research Engineer],
+  society: [Flox Robotics],
+  date: [01/2024 - 10/2024],
+  location: [Stockholm, Sweden],
   description: list(
-    [Design of force-based teleoperation systems for Franka Robitcs FR3 manipulators],
-    [Software Design ROS2 controllers and packages for learning-based policies on real hardware],
-    [3D Printing and design of grippers and teleoperation tools],
+    [Investigated how altitude information of a UAV can be incorporated into an object detection model],
+    [Improved average precision of small object detection by 2% while reducing number of parameters by 75%],
   ),
-  tags: ("ROS2", "C++", "Python", "Teleoperation", "3D-Printing", "Learning Based Control", "Franka Robotics FR3"),
 )
 
 #cvEntry(
-  title: [Student Research Assistant],
-  society: [Fraunhofer Institute of Cognitive Systems (IKS)],
-  logo: image("../src/logos/fraunhofer.png"),
-  date: [May 2024 - Apr 2025],
-  location: [Munich, Germany],
+  title: [Software Engineer],
+  society: [SoundHound],
+  date: [04/2022 - 08/2022],
+  location: [Berlin, Germany],
   description: list(
-    [Training and deployment of RL policies in simulation (MuJoCo)],
-    [sim2real transfer on UR3 for pick-and-place tasks.],
+    [Extended voice assistance API to support a new German-language domain, enhancing natural language understanding and generation capabilities],
+    [Increased testing efficiency by enhancing a Python-based tool using pair-programming],
   ),
-  tags: ("ROS2", "C++", "Python", "Reinforcement Learning", "MuJoCo", "Universal Robots UR3"),
 )
 
 #cvEntry(
-  title: [Robotics Engineer],
-  society: [Angsa Robotics GmbH],
-  logo: image("../src/logos/angsa.jpg"),
-  date: [Apr 2021 - Dec 2023],
-  location: [Munich, Germany],
+  title: [Cofounder and Lead Developer],
+  society: [Ayrendoo],
+  date: [02/2020 - 10/2021],
+  location: [Berlin, Germany],
   description: list(
-    [Development of the robot software stack based on ROS2 using Python, C++, and C for micro-ROS],
-    [Deployment and testing of the robot in simulation and real environment],
-    [Bachelor thesis in optimal coverage path planning],
-    [Implementation of an intelligent object-picking process for an autonomous trash-collecting robot on ROS2 (python and C++)],
-    [Development and Design of a CAN network for the driving system of the robot]
+    [Created a social meetup app in Swift with a location based map feature, group chat capability, scalable user and event database with Firebase and more],
+    [Managed the team by introducing new work ethics such as daily stand-ups, sprints and flexible or fixed working times to increase productivity and help with consistent work output],
+    [Led feature integration for the MVP, ensuring a cohesive and functional beta launch],
   ),
-  tags: ("ROS2", "C++", "Python", "Navigation"),
+)
+
+#cvEntry(
+  title: [Cybersecurity Engineer Intern],
+  society: [ETAS K.K. - Subsidiary of Robert Bosch GmbH],
+  date: [08/2019 - 01/2020],
+  location: [Yokohama, Japan],
+  description: list(
+    [Developed a Python-based interface enabling proprietary C-based hardware (CAN-bus) to integrate seamlessly with the open-source python-can tool],
+    [Created a testing suite to streamline the evolution of a penetration-testing tool, ensuring functionality after each code modification],
+  ),
+)
+
+#cvEntry(
+  title: [Junior Software Engineer],
+  society: [Artiminds Robotics GmbH],
+  date: [07/2017 - 05/2019],
+  location: [Karlsruhe, Germany],
+  description: list(
+    [Developed C++ features for company software, including an export function that generated a template graph of robot instructions in a customer-ready Word document],
+    [Enhanced interface functionality and user-friendliness by refining existing features and implementing effective workarounds for critical legacy code],
+    [Integrated a camera sensor for real-time image feed from a KUKA robot into company software using KUKA robot language without any prior experience],
+  ),
 )

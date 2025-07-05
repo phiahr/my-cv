@@ -55,17 +55,21 @@ language = "en"
     # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
     [personal.info]
         github = "phiahr"
-        phone = "+49 1774012392"
-        email = "sanjose.daniel@gmail.com"
-        linkedin = "daniel-san-jose-pro"
+        phone = "+4917643994309"
+        email = "ph.ahrendt@gmail.com"
+        linkedin = "philippahrendt"
         [personal.info.custom-1]
             # image = "" # Example: image("./path/to/image.png")
             awesomeIcon = "globe" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
-            text = "Website"
-            link = "https://phiahr.github.io"
+            text = "Berlin, Germany"
 
 [lang.en]
-# header_quote = "I am a master’s student highly interested and talented in robotics. My main domains of interest lie at the intersection of Control Theory and Machine Learning. Additionally, I have experience working on larger robotics projects with *ROS2*. I have a great overview of the technologies and tools needed to develop and research in the field of robotics."
+header_quote = "I am a master’s student highly interested and talented in robotics. My main domains of interest lie at the intersection of Control Theory and Machine Learning. Additionally, I have experience working on larger robotics projects with *ROS2*. I have a great overview of the technologies and tools needed to develop and research in the field of robotics."
 cv_footer = "Curriculum vitae"
 letter_footer = "Cover letter"
+
+[lang.de]
+header_quote = "Ein Master-Absolvent in intelligenten autonomen Systemen mit einer starken Grundlage in Robotik, maschinellem Lernen und Computer Vision. Verfügt über praktische Erfahrung in beruflichen und akademischen Umgebungen bei der Entwicklung robuster Softwarelösungen mit C++ und Python. Nachgewiesene Fähigkeit, Projekte zu leiten, von der Mitbegründung einer mobilen Anwendung bis zur Verbesserung von UAV-Objekterkennungsmodellen. Leidenschaft für die Bewältigung von Herausforderungen an der Schnittstelle von KI und Robotik."
+cv_footer = "Lebenslauf"
+letter_footer = "Anschreiben"
 

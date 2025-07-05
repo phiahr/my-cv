@@ -8,35 +8,21 @@
 #cvSection("Education", highlighted: false)
 
 #cvEntry(
-  title: [Masters of Science in Electrical Engineering and Computer Science],
-  society: [Technical University of Munich (TUM)],
-  date: [2018 - 2020],
-  location: [Munich, Germany],
-  logo: image("../src/logos/tum.png"),
+  title: [MSc: Intelligent Autonomous Systems (Double degree)],
+  society: [KTH Royal Institute of Technology/ Polytech Nice Sophia],
+  date: [2022 - 2024],
+  location: [Stockholm, Sweden/ Nice, France],
   description: list(
-    [Grade: 1.0],
-    [Focus in Robotics, Control Theory, and Machine Learning.]
+    [Grade: A, Thesis: Investigating Altitude-Adaptive Methods for Enhancing Small Object Detection on UAVs],
   ),
 )
 
 #cvEntry(
-  title: [Exchange Semester in Zürich],
-  society: [ETH Zürich],
-  date: [2021],
-  location: [Zürich, Switzerland],
-  logo: image("../src/logos/eth.png"),
+  title: [BSc: Electrical Engineering and Computer Science],
+  society: [Karlsruhe Institute Of Technology],
+  date: [2016 - 2021],
+  location: [Karlsruhe, Germany],
   description: list(
-    [Auslandssemester: Theory of Robotics and Mechatronics, Dynamic Programming and Optimal Control, High Performance Computing in Science and Engineering, Introduction to Aircraft and Car Aerodynamics and Discrete and Statistical Signal Processing.]
-  ),
-)
-
-#cvEntry(
-  title: [Exchange Semester in Stockholm],
-  society: [KTH Royal Institute of Technology],
-  date: [2023],
-  location: [Stockholm, Sweden],
-  logo: image("../src/logos/kth.png"),
-  description: list(
-    [Erasmus exchange semester with focus on Control and Machine Learning. Courses in Model Predictive Control, Deep Learning, Applied Estimation and Reinforcement Learning. Average Grade: A.]
+    [Thesis: Detection and Classification of Higher Cognitive Functions using an EEG-based Brain-Computer Interface],
   ),
 )
