@@ -8,6 +8,17 @@
 #cvSection("Professional Experience", highlighted: false)
 
 #cvEntry(
+  title: [Software Engineer],
+  society: [SEMRON],
+  date: [08/2025 - Present],
+  location: [Dresden, Germany],
+  description: list(
+    [Designed and built an open-source framework enabling geographically distributed machine learning across heterogeneous hardware using DiLoCo and Swarm],
+    [Implemented orchestration, communication, and scheduling components to support efficient cross-region training and resource utilization],
+  ),
+)
+
+#cvEntry(
   title: [Research Engineer],
   society: [Flox Robotics],
   date: [01/2024 - 10/2024],
@@ -32,12 +43,10 @@
 #cvEntry(
   title: [Cofounder and Lead Developer],
   society: [Ayrendoo],
-  date: [02/2020 - 10/2021],
+  date: [06/2019 - 10/2020],
   location: [Berlin, Germany],
   description: list(
-    [Created a social meetup app in Swift with a location based map feature, group chat capability, scalable user and event database with Firebase and more],
-    [Managed the team by introducing new work ethics such as daily stand-ups, sprints and flexible or fixed working times to increase productivity and help with consistent work output],
-    [Led feature integration for the MVP, ensuring a cohesive and functional beta launch],
+    [Developed a Swift-based social meetup app with map, group chat, and Firebase-backed data infrastructure]
   ),
 )
 

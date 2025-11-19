@@ -8,7 +8,7 @@
 #cvSection("Berufserfahrung", highlighted: false)
 
 #cvEntry(
-  title: [Entwickler in der ßForschung],
+  title: [Entwickler in der Forschung],
   society: [Flox Robotics],
   date: [01/2024 - 10/2024],
   location: [Stockholm, Schweden],
@@ -30,9 +30,9 @@
 )
 
 #cvEntry(
-  title: [Mitbegründer und leitender Entwickler],
+  title: [Mitgründer und leitender Entwickler],
   society: [Ayrendoo],
-  date: [02/2020 - 10/2021],
+  date: [06/2019 - 10/2020],
   location: [Berlin, Deutschland],
   description: list(
     [Erstellung einer Social-Meetup-App in Swift mit standortbasierter Kartenfunktion, Gruppenchat-Funktion, skalierbarer Benutzer- und Veranstaltungsdatenbank mit Firebase und mehr],
