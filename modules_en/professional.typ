@@ -13,18 +13,18 @@
   date: [08/2025 - Present],
   location: [Dresden, Germany],
   description: list(
-    [Designed and built an open-source framework enabling geographically distributed machine learning across heterogeneous hardware using DiLoCo and Swarm],
+    [Designed and built an open-source framework enabling geographically distributed machine learning across heterogeneous hardware based on DiLoCo and Swarm],
     [Implemented orchestration, communication, and scheduling components to support efficient cross-region training and resource utilization],
   ),
 )
 
 #cvEntry(
-  title: [Research Engineer],
+  title: [Research Engineer Intern],
   society: [Flox Robotics],
   date: [01/2024 - 10/2024],
   location: [Stockholm, Sweden],
   description: list(
-    [Investigated how altitude information of a UAV can be incorporated into an object detection model],
+    [Developed altitude-adaptive object detection for UAV imagery using multi-modal sensor inputs (RGB + altitude)],
     [Improved average precision of small object detection by 2% while reducing number of parameters by 75%],
   ),
 )

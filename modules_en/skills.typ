@@ -17,6 +17,11 @@
 )
 
 #cvSkill(
+  type: [Course work],
+  info: [3D machine vision #hBar() Advanced Deep Learning #hBar() Applied Estimation #hBar() Reinforcement Learning #hBar() MPC],
+)
+
+#cvSkill(
   type: [Interests],
   info: [Intersection of Robotics and AI #hBar() Tennis #hBar() Effective Altruism #hBar() Learning new skills],
 )

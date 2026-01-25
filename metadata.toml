@@ -41,10 +41,10 @@ language = "en"
 
 [inject]
     # Decide if you want to inject AI prompt or not
-    inject_ai_prompt = true
+    inject_ai_prompt = false
 
     # Decide if you want to inject keywords or not
-    inject_keywords = true
+    inject_keywords = false
     injected_keywords_list = ["C++", "Python", "ROS2", "Linux", "Git", "Docker", "CI/CD"]
 
 [personal]
@@ -58,13 +58,13 @@ language = "en"
         phone = "+4917643994309"
         email = "ph.ahrendt@gmail.com"
         linkedin = "philippahrendt"
-        [personal.info.custom-1]
+        #[personal.info.custom-1]
             # image = "" # Example: image("./path/to/image.png")
-            awesomeIcon = "globe" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
-            text = "Berlin, Germany"
+            #awesomeIcon = "globe" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
+            #text = "Berlin, Germany"
 
 [lang.en]
-header_quote = "Recently graduated Software Engineer with experience in machine learning and distributed systems. Interested in building scalable infrastructure that enables teams to develop and deploy data and AI applications effectively."
+header_quote = "Software Engineer with experience in machine learning, computer vision, and distributed systems. Interested in the research and development of machine learning algorithms that solve real-world challenges."
 cv_footer = "Curriculum vitae"
 letter_footer = "Cover letter"
 
