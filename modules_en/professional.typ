@@ -13,7 +13,7 @@
   date: [08/2025 - Present],
   location: [Dresden, Germany],
   description: list(
-    [Designed and built an open-source framework enabling geographically distributed machine learning across heterogeneous hardware based on DiLoCo and Swarm],
+    [Designed and built an open-source framework enabling geographically distributed machine learning across heterogeneous hardware, based on DiLoCo and Swarm, selected for Stage 2 of the SPRIND Composite Learning Challenge, a €530k-funded national R&D program by the German Federal Agency for Disruptive Innovation],
     [Implemented orchestration, communication, and scheduling components to support efficient cross-region training and resource utilization],
   ),
 )
